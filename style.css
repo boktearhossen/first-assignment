@@ -10,7 +10,18 @@ body{
   padding: 0;
 
 }
-
+.btn-primary{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+background: #E55473;
+border: 0;
+border-radius: 6px;
+}
 /* header */
 .header{
     display: flex;
@@ -42,3 +53,118 @@ body{
  font-weight: 700;
  color: #E55473;
 }
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    background: #E554731A;
+    height: 100vh;
+}
+.banner-text{
+    width: 708px;
+}
+.banner-text h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800px;
+    
+}
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    width: 634px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+.banner img{
+    height: 80vh;
+    margin-top: 120px;
+}
+
+/* featured */
+
+.featured{
+    margin: 60px 70px;
+  }
+  .featured h2{
+    margin-bottom: 20px;
+  }
+  
+  .section-titel{
+  text-align: center;
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  }
+  .section-subtitle{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  }
+  
+  .featured-img{
+    display: flex;
+     margin-top: 60px;
+    justify-content: space-between;
+    gap: 30px;
+    
+  }
+  .featured-first-img {
+    background-color: #E55473; 
+    padding:  40px 40px 0 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+  }
+  .featured-second-img {
+    background-color:lightblue; 
+    padding:  40px 40px 0 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  
+    
+  }
+  .featured-third-img {
+    background-color: palegoldenrod; 
+    padding:  40px 40px 0 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+  }
+  
+  .featured-main{
+  width: 280px;
+  height: 388px;
+  
+  }
+  .featured-text{
+    text-align: center;
+   
+  }
+  
+  .featured-text{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 16px;
+  } 
+
+
+
+
+
+
+
