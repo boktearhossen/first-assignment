@@ -217,3 +217,19 @@ margin-top: 20px;
 .sale-img{
   margin-left: 150px;
 }
+
+/* social */
+.social{
+  margin-bottom: 70px;
+
+}
+.social p{
+  margin-top: 20px;
+}
+.social-img{
+  display: flex;
+  height: 310px;
+  margin: 0 70px;
+  margin-top: 50px;
+  gap: 22px;
+}
